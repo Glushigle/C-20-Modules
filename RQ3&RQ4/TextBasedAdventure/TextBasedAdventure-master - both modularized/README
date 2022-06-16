@@ -1,0 +1,15 @@
+With the first draft of the game's engine now finished, I've started developing the game's world.
+
+If you would like to get a feel for the general "architectre" of the code, you should read the files in the following order (or in reverse order if you want to understand it in a top-down way):
+Globals.h
+Utilities.h/.cpp
+Item.h
+Player.h/.cpp
+Menu.h/.cpp
+WorldVariables.h/.cpp
+Action.h/.cpp
+Location.h/.cpp
+Game.h/.cpp
+Main.cpp
+
+Started on December 5th, 2012.  Many thanks to Mike McG who encouraged me to put this project on GitHub and who encouraged me to not settle for "good enough" when there was room for improvement.  Thanks to Daniel Scanlan, who figured out the cause of a bug that would have killed this project early on had he not caught it.

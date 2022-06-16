@@ -1,0 +1,3 @@
+g++ -ftime-report _func.cc _func0.cc _func1.cc _func2.cc _main.cc -o _main
+
+g++ -ftime-report -fmodules-ts func.cc func0.cc func1.cc func2.cc main.cc -o main
